@@ -18,14 +18,9 @@ country: str = input('Введите свою страну: ')
 town: str = input('Введите свой город: ')
 street: str = input('Введите свою улицу: ')
 home: str = input('Введите свой номер дома: ')
-print(username, end=(' '))
-print('живет по следующему адресу:', end=(' '))
-print(country, end=(', '))
-print(town, end=(', '))
-print(street, end=(', '))
-print(home, end=('. '))
-print('Спасибо за доверие, ', end=(''))
-print(username, end=('!'))
+print(username, 'живет по следующему адресу:', end=(' '))
+print(country,town,street,home, sep=(', '), end=('. '))
+print('Спасибо за доверие,',username, end=('!'))
 
 
 # 3. Выберите структуру данных для задач разработчиков,
@@ -72,9 +67,7 @@ username = "Kolia"
 permissions = ["read", "write", "execute"]
 
 print("У пользователя", username, "имеются следующие права:", end=(' '))
-print(permissions[0], end=(', '))
-print(permissions[1], end=(', '))
-print(permissions[2], end=('!'))
+print(permissions[0], permissions[1], permissions[2], sep=(', '), end=('!'))
 
 # 7. Вычислите сколько в среднем сотрудников в каждом отделе
 
