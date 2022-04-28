@@ -133,7 +133,7 @@
 # 11. Объедините следующие коллекции в одну.
 
 # from uuid import uuid4
-#
+
 # workers_uuids = [str(uuid4()), str(uuid4()), str(uuid4())]
 # vacations = [10, 23, 10]
 #
