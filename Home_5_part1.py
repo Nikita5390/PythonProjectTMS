@@ -1,7 +1,7 @@
 """1. Увеличте все элементы
 следующей коллекции на 1"""
 # int_list = [1,2,"3",4,5,6,7,"5", "100"]
-
+#
 # def foo(item):
 #     return int(item)
 # def plus(int):
@@ -9,7 +9,7 @@
 #
 # clear_list = list(map(foo, int_list))
 # result_list = list(map(plus, clear_list))
-# print(result_list)
+# # print(result_list)
 
 
 """2. Сложите все элементы
